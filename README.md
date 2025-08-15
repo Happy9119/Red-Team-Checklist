@@ -8,7 +8,6 @@ The checklist is generated using **Python** and the **ReportLab** library, with 
 ## 📂 Files
 - `checklist.pdf` — The generated VAPT checklist with clickable checkboxes.
 - `code.py` — Python script to generate the PDF checklist.
-- `requirements.txt` — Python dependencies for the script.
 
 ---
 
@@ -17,3 +16,12 @@ The checklist is generated using **Python** and the **ReportLab** library, with 
 - Clear separation between modules for easy readability.
 - Customizable checklist items (edit directly in the script).
 - Uses the `reportlab` library for PDF creation.
+
+## Install dependencies
+
+Before running the script, make sure you have Python 3 installed.  
+Then, install the required Python package:
+
+```bash
+pip install reportlab
+```
